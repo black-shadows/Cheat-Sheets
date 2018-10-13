@@ -1,9 +1,6 @@
-[back to overwiev](/../..)  
-Looking for [Rails](../Ruby-on-Rails-Cheatsheet.md)?  
-
 # Ruby Cheatsheet
 
-##### Table of Contents  
+## Table of Contents  
 * [Basics](#basics)  
 * [Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
 * [Methods](#methods)
