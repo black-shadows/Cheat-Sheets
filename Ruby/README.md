@@ -1,5 +1,7 @@
 # Ruby Cheatsheet
 
+Ruby is a language of careful balance. Its creator, Yukihiro “Matz” Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada, and Lisp) to form a new language that balanced functional programming with imperative programming.
+
 ## Table of Contents  
 * [Basics](#basics)  
 * [Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
