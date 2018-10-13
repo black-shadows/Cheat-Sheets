@@ -4,21 +4,21 @@ Looking for [Rails](../Ruby-on-Rails-Cheatsheet.md)?
 # Ruby Cheatsheet
 
 ##### Table of Contents  
-[Basics](#basics)  
-[Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
-[Methods](#methods)
-[Classes](#classes)
-[Modules](#modules)
-[Blocks and Procs](#blocks-and-procs)  
-[Lambdas](#lambdas)
-[Calculation](#calculation)  
-[Comment](#comment)  
-[Conditions](#conditions)  
-[Printing and Putting](#printing-and-putting)  
-[User Input](#user-input)  
-[Loops](#loops)
-[Sorting and Comparing](#sorting-and-comparing)  
-[Useful Methods](#useful-methods)  
+* [Basics](#basics)  
+* [Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
+* [Methods](#methods)
+* [Classes](#classes)
+* [Modules](#modules)
+* [Blocks and Procs](#blocks-and-procs)  
+* [Lambdas](#lambdas)
+* [Calculation](#calculation)  
+* [Comment](#comment)  
+* [Conditions](#conditions)  
+* [Printing and Putting](#printing-and-putting)  
+* [User Input](#user-input)
+* [Loops](#loops)
+* [Sorting and Comparing](#sorting-and-comparing)  
+* [Useful Methods](#useful-methods)  
 
 ## Basics
 *$ irb –– to write ruby in the terminal*  
