@@ -9,16 +9,16 @@ Looking for [Rails](../Ruby-on-Rails-Cheatsheet.md)?
 [Methods](#methods)
 [Classes](#classes)
 [Modules](#modules)
-[Blocks & Procs](#blocks-&-procs)  
+[Blocks and Procs](#blocks-and-procs)  
 [Lambdas](#lambdas)
 [Calculation](#calculation)  
 [Comment](#comment)  
 [Conditions](#conditions)  
-[Printing & Putting](#printing-&-putting)  
+[Printing and Putting](#printing-and-putting)  
 [User Input](#user-input)  
-[Loops](#loops) 
-[Sorting & Comparing](#sorting-&-comparing)  
-[Usefull Methods](#usefull-methods)  
+[Loops](#loops)
+[Sorting and Comparing](#sorting-and-comparing)  
+[Useful Methods](#useful-methods)  
 
 ## Basics
 *$ irb –– to write ruby in the terminal*  
@@ -172,7 +172,7 @@ peter.jump # include
 Rabbit.jump # extend
 ```
 
-## Blocks & Procs
+## Blocks and Procs
 **Code Blocks**  
 *Blocks are not objects* A block is just a bit of code between do..end or {}. It's not an object on its own, but it can be passed to methods like .each or .select.
 ```Ruby
@@ -274,7 +274,7 @@ end
 problem = false  
 print "Good to go!" unless problem –– prints out because problem != true  
 
-## Printing & Putting
+## Printing and Putting
 ```Ruby
 print “bla” 
 puts “test” # puts the text in a separate line
@@ -371,7 +371,7 @@ end
 "a".upto("c") { |x| print x, " " } # a b c  
 ```
 
-## Sorting & Comparing
+## Sorting and Comparing
 ```Ruby
 array = [5,4,1,3,2]
 array.sort! # = [1,2,3,4,5] – works with text and other as well.
