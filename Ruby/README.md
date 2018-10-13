@@ -1,7 +1,7 @@
 [back to overwiev](/../..)  
 Looking for [Rails](../Ruby-on-Rails-Cheatsheet.md)?  
 
-#Ruby Cheatsheet
+# Ruby Cheatsheet
 
 ##### Table of Contents  
 [Basics](#basics)  
@@ -9,18 +9,18 @@ Looking for [Rails](../Ruby-on-Rails-Cheatsheet.md)?
 [Methods](#methods)
 [Classes](#classes)
 [Modules](#modules)
-[Blocks & Procs](#blocks--procs)  
+[Blocks & Procs](#blocks-&-procs)  
 [Lambdas](#lambdas)
 [Calculation](#calculation)  
 [Comment](#comment)  
 [Conditions](#conditions)  
-[Printing & Putting](#printing--putting)  
-[User Imput](#user-imput)  
+[Printing & Putting](#printing-&-putting)  
+[User Input](#user-input)  
 [Loops](#loops) 
-[Sorting & Comparing](#sorting--comparing)  
+[Sorting & Comparing](#sorting-&-comparing)  
 [Usefull Methods](#usefull-methods)  
 
-##Basics
+## Basics
 *$ irb –– to write ruby in the terminal*  
 *don't use ' in ruby, use " instead*  
 *you can replace most {} with do end and vice versa –– not true for hashes or #{} escapings*  
@@ -31,7 +31,7 @@ Looking for [Rails](../Ruby-on-Rails-Cheatsheet.md)?
 *tag your variables: $ = global, @ = instance, @@ = class variable*  
 *1_000_000 = 1000000 –– just easier to read*  
 
-##Vars, Contants, Arrays, Hashes & Symbols
+## Vars, Contants, Arrays, Hashes & Symbols
 ```Ruby
 my_variable = “Hello”  
 my_variable.capitalize! # ! changes the value of the var same as my_name = my_name.capitalize
@@ -76,12 +76,12 @@ my_hash.each_value { |v| print v, " " }
 my_hash = { key: "value", key2: "value" } # is equal to { :key => "value", :key2 => "value" }
 ```
 
-####Functions to create Arrays
+#### Functions to create Arrays
 ```Ruby
 "bla,bla".split(“,”) # takes sting and returns an array (here  ["bla","bla"])
 ```
 
-##Methods
+## Methods
 **Methods**
 ```Ruby
 def greeting(hello, *names) # *name is a splat argument, takes several parameters passed in an array
@@ -95,7 +95,7 @@ def name(variable=default)
 end
 ```
 
-##Classes
+## Classes
 *custom objects*
 ```Ruby
 class ClassName # class names are rather written in camelcase
@@ -140,7 +140,7 @@ end
 # Any given Ruby class can have only one superclass. Use mixins if you want to incorporate data or behavior from several classes into a single class.
 ```
 
-##Modules
+## Modules
 ```Ruby
 module ModuleName # module names are rather written in camelcase
   # variables in modules doesn't make much sence since modules do not change. Use constants. 
@@ -172,7 +172,7 @@ peter.jump # include
 Rabbit.jump # extend
 ```
 
-##Blocks & Procs
+## Blocks & Procs
 **Code Blocks**  
 *Blocks are not objects* A block is just a bit of code between do..end or {}. It's not an object on its own, but it can be passed to methods like .each or .select.
 ```Ruby
@@ -192,7 +192,7 @@ cube = Proc.new { |x| x ** 3 }
 cube.call # call procs directly
 ```
 
-##Lambdas
+## Lambdas
 ```Ruby
 lambda { |param| block }
 multiply = lambda { |x| x * 3 }
@@ -203,7 +203,7 @@ Diff between blocs and lambdas:
 - when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without going back to the calling method.
 So: A lambda is just like a proc, only it cares about the number of arguments it gets and it returns to its calling method rather than returning immediately.
 
-##Calculation
+## Calculation
 Addition (+)  
 Subtraction (-)  
 Multiplication (*)  
@@ -216,7 +216,7 @@ The concatenation operator (<<)
 string interpolation (#{4})
 "A #{4} B" # "A 4 B"
 
-##Comment
+## Comment
 ```Ruby
 =begin  
 Bla
@@ -227,7 +227,7 @@ Multyline comment
 # single line comment
 ```
 
-##Conditions
+## Conditions
 **IF**
 ```Ruby
 if 1 < 2  
@@ -274,13 +274,13 @@ end
 problem = false  
 print "Good to go!" unless problem –– prints out because problem != true  
 
-##Printing & Putting
+## Printing & Putting
 ```Ruby
 print “bla” 
 puts “test” # puts the text in a separate line
 ```
 
-##String Methods
+## String Methods
 ```Ruby
 “Hello”.length # 5  
 "Hello”.reverse # “olleH”  
@@ -295,13 +295,13 @@ puts “test” # puts the text in a separate line
 :test.to_s # converts to "test"
 ```  
 
-##User Imput
+## User Input
 ```Ruby
 gets # is the Ruby equivalent to prompt in javascript (method that gets input from the user)
 gets.chomp # removes extra line created after gets (usually used like this)
 ```
 
-##Loops
+## Loops
 **While loop:**  
 ```Ruby
 i = 1  
@@ -371,7 +371,7 @@ end
 "a".upto("c") { |x| print x, " " } # a b c  
 ```
 
-##Sorting & Comparing
+## Sorting & Comparing
 ```Ruby
 array = [5,4,1,3,2]
 array.sort! # = [1,2,3,4,5] – works with text and other as well.
@@ -379,7 +379,7 @@ array.sort! # = [1,2,3,4,5] – works with text and other as well.
 array.sort! { |a, b| b <=> a } # to sort from Z to A instead of A to Z
 ```
 
-##Usefull Methods
+## Useful Methods
 ```Ruby
 1.is_a? Integer # returns true
 :1.is_a? Symbol # returns true
