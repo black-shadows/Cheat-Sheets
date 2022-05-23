@@ -1,15 +1,6 @@
 # TypeScript Cheatsheet
-Set of basic functionalities from TypeScript in one place. 
-
-Cheatsheet was created by https://www.linkedin.com/in/blackshadows/ 
+Set of basic functionalities from TypeScript in one place. <br>
 Please note that some functionalities are part of ES201x but they are frequently used in TypeScript as well.
-
-**Check also other Cheatsheets:**
-
-[Angular](https://github.com/black-shadows/Cheat-Sheets/tree/master/Angular)
-
-[ReactJS](https://github.com/black-shadows/Cheat-Sheets/tree/master/React)
-
 
 # Table of Contents
 
