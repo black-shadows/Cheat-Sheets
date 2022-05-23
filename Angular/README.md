@@ -1,6 +1,4 @@
-[back to overwiev](/../..)
-
-#Angular Cheatsheet
+# Angular Cheatsheet
 
 ##### Table of Contents  
 [Basics](#basics)  
@@ -11,7 +9,7 @@
 [Routing](#routing)  
 [Filters](#filters)  
 
-##Basics
+## Basics
 **Setup**  
 0. You can use the official [Angular Seed Project](https://github.com/angular/angular-seed) for quick startup.  
 1. Create a new module named myApp
@@ -42,7 +40,7 @@ app.controller('MainController', ['$scope', function($scope) {
 ```
 We access $scope.title using {{ title }}. That’s an expression: used to display values on the page.
 
-###Namings
+### Namings
 **Binding** –– {{ ... }}  
 **Expressions** –– something + '!'  
 **Directives** ––  
@@ -54,7 +52,7 @@ We access $scope.title using {{ title }}. That’s an expression: used to displa
 **DI / dependency injection** –– https://github.com/angular/angular.js/wiki/Understanding-Dependency-Injection  
 
 
-###misc  
+### misc  
 **Price**
 ```html
 <p class="price">{{ product.price | currency }}</p>
@@ -69,7 +67,7 @@ pubdate: new Date('2014', '03', '08')
 <p class="date">{{ product.pubdate | date | uppercase }}</p>
 ```
 
-##Loop
+## Loop
 ```javascript
 $scope.products = [ 
   { 
@@ -96,7 +94,7 @@ $scope.products = [
 </div>
 ```
 
-##Html
+## Html
 ```html
 <!-- loops trough every product in products -->
 <div ng-repeat="product in products"> 
@@ -108,7 +106,7 @@ $scope.products = [
 <p ng-click="plusOne($index)">{{ product.likes }}</p>
 ```
 
-##Directives
+## Directives
 in js/directives/appInfo.js
 ```javascript
 app.directive('appInfo', function() { 
@@ -155,7 +153,7 @@ in index.html
 <app-info info="shutterbugg"></app-info>
 ```
 
-##Services
+## Services
 **js > services > forecast.js**
 ```javascript
 app.factory('forecast', ['$http', function($http) { // app.factory to create a new service named forecast + AngularJS's built-in $http to fetch JSON from the server
@@ -184,7 +182,7 @@ app.controller('MainController', ['$scope', 'forecast', function($scope, forecas
 </div>
 ```
 
-##Routing
+## Routing
 **app.config.js**
 ```javascript
 // new
@@ -297,7 +295,7 @@ app.factory('photos', ['$http', function($http) {
 <div ng-view></div>
 ```
 
-##Filters
+## Filters
 ```javascript
 detail.upvotes | number // 1,266
 detail.pubdate | date // Oct 18, 2014 
