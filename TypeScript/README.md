@@ -1,8 +1,7 @@
 # TypeScript Cheatsheet
 Set of basic functionalities from TypeScript in one place. 
 
-Cheatsheet was created by https://www.linkedin.com/in/blackshadows/ trainers for their students.
-
+Cheatsheet was created by https://www.linkedin.com/in/blackshadows/ 
 Please note that some functionalities are part of ES201x but they are frequently used in TypeScript as well.
 
 **Check also other Cheatsheets:**
